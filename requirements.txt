@@ -1,0 +1,6 @@
+# Pure-Python dependencies. The actual reconstruction is done by
+# OpenDroneMap inside Docker, so OpenCV here is only used for image
+# validation and visualization.
+opencv-python>=4.8
+numpy>=1.24,<2.0
+matplotlib>=3.7
